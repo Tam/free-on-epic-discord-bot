@@ -14,5 +14,5 @@ Run as a cron (7pm every day):
 
 Build for DigitalOcean Ubuntu 16.4:
 ```shell script
-$ env GOOS=linux GOARCH=arm go build main.go
+$ env GOOS=linux GOARCH=amd64 go build main.go
 ```
