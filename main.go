@@ -107,7 +107,7 @@ func fetch() []Field {
 		},
 	}
 
-	body := post("https://graphql.epicgames.com/graphql", msg)
+	body := post("https://www.epicgames.com/store/backend/graphql-proxy", msg)
 	var result map[string]map[string]map[string]map[string]interface{}
 	json.Unmarshal(body, &result)
 
